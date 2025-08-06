@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1F2937;
+    
+}
+h1{
+    color: #ffffff;
+}
+h3{
+    color: #CCC1FF;
+}
+.container{
+    height: 250px;
+    background-color: #5c3cdd;
+    padding: 10px;
+}
+
+#input{
+    width: 100px;
+    height: 70px;
+    background-color: transparent;
+    border: solid #ffffff6b;
+    border-radius: 5px;
+
+}
+input::placeholder{
+    color: rgba(209, 209, 209, 0.589);
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+input[type=text]{
+    text-align: center;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+
+#convert-btn{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+.cards {
+    background-color: #273549;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+
+}
