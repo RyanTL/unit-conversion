@@ -13,10 +13,10 @@ function convert(){
     let massS = document.getElementById("mass")
     let distanceS = document.getElementById("distance")
 
-    let meter = userInput * 3.281 
-    let feet = userInput * 0.304
-    let liter = userInput * 0.264
-    let gallon = userInput * 3.785
+    let meeterToFeet = userInput * 3.281 
+    let feetToMeter = userInput * 0.304
+    let literToGallon = userInput * 0.264
+    let gallonToLiter = userInput * 3.785
     let kilo = userInput * 2.204
     let pound = userInput * 0.453
     let kilometer = userInput * 0.621
@@ -24,8 +24,8 @@ function convert(){
 
 
 
-    lengthS.innerHTML = `${userInput} Meters = ${feet.toFixed(3)} feet | ${userInput} feet = ${meter.toFixed(3)} meters `
-    volumeS.innerHTML = `${userInput} Liters = ${gallon.toFixed(3)} gallons | ${userInput} gallons = ${liter.toFixed(3)} liters`
+    lengthS.innerHTML = `${userInput} Meters = ${meeterToFeet.toFixed(3)} feet | ${userInput} feet = ${feetToMeter.toFixed(3)} meters `
+    volumeS.innerHTML = `${userInput} Liters = ${literToGallon.toFixed(3)} gallons | ${userInput} gallons = ${gallonToLiter.toFixed(3)} liters`
     massS.innerHTML = `${userInput} Kilos = ${pound.toFixed(3)} pounds | ${userInput} pounds = ${kilo.toFixed(3)} kilos`
     distanceS.innerHTML = `${userInput} Miles = ${miles.toFixed(3)} kilometers | ${userInput} kilometers = ${kilometer.toFixed(3)} miles`
 
